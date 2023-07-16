@@ -1,7 +1,13 @@
 import "dart:io";
 
-void userprofile( String name, int age, int salary, String address){
-  print ('so $name, \nYou are $age \nAnd you earn $salary \nWhy do you live at $address tho??');
+void usercheck( {String? name, int? age,}){
+
+  if(  age! >= 18){
+  print ('hi $name you are old enough');
+}
+else{
+  print('hi $name but you are not old enough');
+}
 }
 
 void main(){
@@ -9,12 +15,6 @@ stdout.write('input your name: ');
 String name = (stdin.readLineSync()!);
 stdout.write('input your age: ');
 int age = int.parse(stdin.readLineSync()!);
-stdout.write('What do you earn: ');
-int salary = int.parse(stdin.readLineSync()!);
-stdout.write('where do you live: ');
-String address = (stdin.readLineSync()!);
-
-
-userprofile(name, age, salary, address );
+usercheck(name: name, age: age);
 }
 
