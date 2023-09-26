@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240373544367",
+    "project_id": "quless-a9731",
+    "storage_bucket": "quless-a9731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240373544367:android:c5220463904eedadcd2b5a",
+        "android_client_info": {
+          "package_name": "com.quless.quless"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDesy6WqB9W7-jYYPeYmYdHxOzAdFboryQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
